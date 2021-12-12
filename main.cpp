@@ -4,8 +4,9 @@
 int main(int argc, char *argv[ ]) 
 {
 QApplication app(argc, argv);
- 
+
 QPushButton button("Hello, master branch!");
+QPushButton button("Hello, branch 1!!!");
 button.resize(200, 60);
 button.show( );
  
